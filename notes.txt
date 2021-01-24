@@ -1,0 +1,42 @@
+Vim -- Powerful text editor
+
+Vim's philosphy : Vim's interface is a progamming language
+Vim is a modal editor and avoids using arrow keys.
+
+Always change mode to do your work rather than using primitive method.
+
+Mode :
+NOMAL:You should work in this mode most of your time.
+INSERT:Use it to insert some words, you should choose those commands leading you directly to this mode.
+REPLACE: For replacing text
+VISIUAL:Selecting blocks
+
+Basic commands:
+-Movement: You need to use these commands under NORMAL mode
+move:hjkl
+words:b(beginning),e(end),w(next)
+lines:$(end of line),0(beginning of line),
+screen:H(highest),M(middle),L(low)
+fild:gg(beginning),G(end)
+line numbers:{number}<CR>,number here is relative
+pages:<Ctrl>u,<Ctrl>d
+find:f<character>,;for navigating
+
+Edit commands:
+o:insert a new line;
+d{motion}:delete eg:dw,d$,d0
+c{motion}:change(overwrite) eg:cw
+x:delete a character 
+s:sustitute a character
+Visiual Mode +Manupilation:make a block and use d/c etc
+y:copy(yank)
+p:paste
+u:undo
+
+counts:A technique that combines number and command
+-3w:move three words forward.
+-5j:move 5 lines down.  
+
+
+
+
