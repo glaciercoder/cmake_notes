@@ -1,2 +1,2 @@
-# cmake_notes
-A simple example for using cmake
+# missing_semseter_notes
+Some important operations in missing semester
